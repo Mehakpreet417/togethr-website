@@ -1,0 +1,32 @@
+.comparision-feature{
+    display: flex;
+    gap: 17.46px;
+}
+
+.comparison-feature-img {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+  }
+  .comparison-feature-value {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  .comparison-feature-value h5 {
+    margin: 0;
+    font-size: 12.22px;
+    font-weight: 500;
+    line-height: 19.55px;
+    color: #9A9A9A;
+  }
+  
+  .comparison-feature-value p {
+    margin: 5px 0 0;
+    font-size: 9.6px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 13.71px;
+    color: #707070;
+  }
+  

@@ -1,0 +1,25 @@
+.videos{
+    display: flex;
+    gap: 14.81px;
+    margin-bottom: 20px;
+}
+
+
+.videos-pagination{
+    display: flex;
+    align-items: center;
+    width: Fixed (888px)px;
+    height: Hug (60.39px)px;
+    padding: 15px;
+    border-top: 0.77px solid #262626 ;
+    justify-content: space-between;
+}
+
+@media (max-width: 420px){
+    .videos{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 10px 20px 10px;
+    }
+}
