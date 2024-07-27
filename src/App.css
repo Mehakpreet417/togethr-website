@@ -31,7 +31,8 @@
   }
 
   .App-content{
-    width: 100%;
+    width: calc(100% - 40px);
+    
   }
   .App-side_panel {
     position: fixed;
