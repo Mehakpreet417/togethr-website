@@ -1,0 +1,282 @@
+.comparison{
+    display: flex;
+    flex-direction: column;
+}
+
+.comparison-products{
+    display: flex;
+    gap: 16px;
+}
+
+.comparison-product-details{
+    display: flex;
+    flex-direction: column;
+    width: 425px;
+    height: Hug (640px)px;
+    padding: 12px 0px 12px 0px;
+    gap: 14px;
+    border-radius: 12.57px;
+    background-color: #191919;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.comparison-product{
+    display: flex;
+    background-color:#121212 ;
+    width: 350px;
+    height: Hug (195px)px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 12.05px;
+
+}
+
+.comparison-product-img{
+  position: relative;
+}
+
+.comparison-product-img img{
+  width: 100%;
+  display: block;
+}
+
+.comparison-product-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.comparison-product-price {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}  
+
+  .comparison-product-price p{
+    font-size: 13.82px;
+    font-weight: 500;
+    line-height: 20.73px;
+    color: #999999;
+    margin: 0;
+  }
+
+  .comparison-product-price span{
+    font-size: 18.42px;
+    font-weight: 700;
+    line-height: 27.64px;
+    color: #FDFDFD;
+  }
+
+  .comparison-stars-box{
+    display: flex;
+    gap: 4px;
+  }
+
+
+  .comparison-pros-cons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 370px;
+    padding: 10px;
+    background-color: #121212;
+    border: 0.87px solid #0000001A;
+    border-radius: 10.47px;
+    position: relative;
+  }
+  
+  .comparison-pros, .comparison-cons {
+    width: 45%;
+  }
+  
+  .separator {
+    width: 2px;
+    background-color: #292929;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .comparison-heading {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .comparison-heading img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+  }
+  
+  .comparison-heading p {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.62px;
+    color: #A7A7A7;
+  }
+  
+  .comparison-points {
+    list-style-type: disc;
+    list-style-position: outside; 
+    padding: 10px 10px 20px 10px; 
+    margin: 0;
+  }
+  
+  .comparison-points li {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15.62px;
+    color: #A7A7A7;
+    text-indent: -20px; 
+    padding-left: 20px; 
+  }
+
+  .comparison-features-container{
+    display: flex;
+    width: 385px;
+    height: 180px;
+    border-radius: 10.47px ;
+    border: 0.87px solid #0000001A;
+    background-color: #121212;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .comparision-featues{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+    justify-content: space-between;
+    width: Hug (330.46px)px;
+    height: 164px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  @media screen and (max-width: 1150px){
+    .comparison-products{
+      gap: 12px;
+    }
+    .comparison-product-details{
+      width: 48%;
+      height: Hug (640px)px;
+      padding: 8px 0px;
+    }
+
+    .comparison-features-container{
+      display: flex;
+      width: calc(100% - 20px);
+      justify-content: center;
+      align-items: center;
+      margin: 0 10px;
+    }
+
+    .comparision-featues{
+      gap: 10px;
+    }
+
+    .comparison-heading p {
+      font-size: 10px;
+      line-height: 12px;
+    }
+    
+    .comparison-points {
+      padding: 5px 5px 10px 5px; 
+    }
+    
+    .comparison-points li {
+      font-size: 10px;
+      line-height: 12px;
+      text-indent: -10px; 
+      padding-left: 10px; 
+    }
+
+    .separator {
+      top: 15px;
+      bottom: 15px;
+    }
+    
+    .comparison-heading img {
+      width: 20px;
+      height: 20px;
+      margin: 0 7px;
+    }
+
+    .comparison-pros-cons {
+      width: calc(100% - 40px);
+      margin: 0 10px;
+    }
+    
+    .comparison-pros, .comparison-cons {
+      width: 45%;
+    }
+
+    .comparison-product{
+      width: calc(100% - 40px);
+      padding: 10px;
+      margin: 0 10px;
+  
+  }
+  
+    .comparison-product-info{
+      padding: 10px;
+      display: flex;
+      gap: 10px;
+    }  
+
+  .comparison-product-price p{
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .comparison-product-price span{
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .comparison-stars-box{
+    display: flex;
+    gap: 2px;
+  }
+
+  .comparison-stars-box img{
+    width: 20px;
+    height: 20px;
+  }
+  }
+
+  @media screen and (max-width: 650px){
+    .comparison-products{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .comparison-product-details{
+      width: 100%;
+      height: Hug (640px)px;
+      padding: 5px 0px;
+    }
+
+  .comparison-product-price p{
+    font-size: 9px;
+    line-height: 12px;
+  }
+
+  .comparison-product-price span{
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .comparison-stars-box img{
+    width: 15px;
+    height: 15px;
+  }
+  }
